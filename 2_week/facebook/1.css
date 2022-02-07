@@ -1,0 +1,146 @@
+
+/*Обнуление*/
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,*:before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+
+    font-family: Montserrat, sans-serif;
+    height: 100%;
+    width: 100%;
+
+    line-height: 1;
+    font-size: 18px;
+    font-weight: bold;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;font-size: inherit}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none; color:inherit}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+* > img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+body{
+    background-color: #F0F2F5;
+}
+
+.container{
+    max-width: 1120px;
+    margin: 0 auto;
+}
+.main {
+    min-height: 100%;
+}
+
+
+
+.login {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.login__text {
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+}
+.login__text span{
+    font-size: 50px;
+    font-weight: bold;
+    color: #1877F2;
+}
+
+.login__form {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.login__username input,
+.login__password input{
+    border: 1px solid #dfdfdf;
+    width: 363px;
+    height: 50px;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 20px;
+
+}
+
+.login__password {
+}
+
+.login__button button {
+    width: 360px;
+    height: 48px;
+    background-color: #1877F2;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.login__forgot-btn {
+    margin: 20px 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+    color: #1877F2;
+    font-size: 15px;
+}
+
+.hr {
+    width: 100%;
+    height: 1px;
+    background-color: #dfdfdf;
+    margin: 10px 0;
+}
+
+.login__register button{
+    background-color: #42B72A;
+    width: 190px;
+    height: 48px;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+
+}
+.create{
+    margin-top: 30px;
+    font-size: 16px;
+    text-align: center;
+}
