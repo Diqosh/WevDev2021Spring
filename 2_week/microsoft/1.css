@@ -1,0 +1,154 @@
+
+/*Обнуление*/
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,*:before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+
+    font-family: Montserrat, sans-serif;
+    height: 100%;
+    width: 100%;
+
+    line-height: 1;
+    font-size: 15px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;font-size: inherit}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none; color:inherit}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+* > img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+._ibg{
+    position: relative;
+}
+._ibg img{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: -1;
+}
+/*--------------header-----------*/
+.container{
+    width: 1200px;
+    margin:0 auto;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu__left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo {
+}
+
+.menu__item {
+    display: flex;
+    align-items: center;
+}
+
+.menu__right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/*diag*/
+
+.diag {
+    width: 100%;
+    height: 600px;
+    color: white;
+}
+.diag-text__wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 520px;
+    gap: 20px;
+    padding-left: 40px;
+}
+
+
+.diag__title {
+    font-size: 26px;
+    line-height: 1.5;
+}
+
+.diag__text {
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.diag__btn {
+    width: 254px;
+    height: 37px;
+}
+
+.services {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+.services__item {
+    width: calc((100% / 4) - 30px);
+}
+
+.services__image {
+}
+
+.services__title {
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.services__text {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.services__btn {
+    padding: 20px 0;
+    color: #1e82ff;
+    font-size: 12px;
+    font-weight: bold;
+}

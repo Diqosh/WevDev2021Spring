@@ -144,3 +144,17 @@ body{
     font-size: 16px;
     text-align: center;
 }
+footer{
+    padding-top: 50px;
+    font-size: 14px;
+    color: grey;
+    font-weight: normal;
+    background-color: #fff;
+}
+
+footer .hr{
+    width: 100%;
+    height: 1px;
+    background-color: #dfdfdf;
+    
+}
