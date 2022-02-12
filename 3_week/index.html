@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="1.css">
+</head>
+<body>
+<header>
+    <p>ToDo List</p>
+</header>
+<div class="main">
+    <div class="container">
+        <div class="main_wrapper">
+            <div class="main__title">ToDo List</div>
+            <div class="main__add-wrapper add">
+                <div class="add__input"><input type="text" placeholder="New Task" id="item_name"></div>
+                <div class="add_btn">
+                    <button id="item_add">Add</button>
+                </div>
+            </div>
+            <div class="wrapper_list">
+                <div class="list__item">
+                    <div class="item__right"><input type="checkbox" name="" class="done" onclick="done()">
+                        <div class="item__name">First</div>
+                    </div>
+                    <div class="item__left"><img src="images/trash-solid.svg" alt="" class="trash"></div>
+                </div>
+                <div class="list__item">
+                    <div class="item__right"><input type="checkbox" name="" class="done" onclick="done()">
+                        <div class="item__name ">Second</div>
+                    </div>
+                    <div class="item__left"><img src="images/trash-solid.svg" alt="" class="trash"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="1.js"></script>
+</body>
+</html>
