@@ -5,6 +5,7 @@ let checkbox = document.getElementsByClassName("done")[0],
     dones = document.getElementsByClassName('done'),
     add = document.getElementById('item_add');
 
+
 let done =  () =>  {
     if(checkbox.checked){
         console.log("asdf")
