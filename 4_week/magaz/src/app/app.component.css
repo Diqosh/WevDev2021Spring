@@ -1,0 +1,9 @@
+.products__wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: start;
+}
+products{
+  width: 30%;
+}
