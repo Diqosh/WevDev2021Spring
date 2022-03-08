@@ -1,0 +1,16 @@
+.like__wrapper{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+img {
+  height: 25px;
+  filter: invert(33%) sepia(49%) saturate(5959%) hue-rotate(305deg) brightness(97%) contrast(98%);
+}
+img:hover{
+  cursor: pointer;
+}
+.like_cnt{
+  font-size: 24px;
+}

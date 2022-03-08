@@ -1,0 +1,8 @@
+<div class="category">
+  <div class="category__item"
+      (click)="print($event)"
+
+      *ngFor="let category of categories">
+    <p>{{category.name}}</p>
+  </div>
+</div>

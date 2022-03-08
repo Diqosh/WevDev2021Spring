@@ -1,0 +1,13 @@
+<div class="product__wrapper">
+  <p>{{product.name}}</p>
+  <div class="product__image"><img [src]="product.image" alt=""></div>
+  <div class="product__info">
+    <p>{{product.rating}}</p>
+    <app-like [like]="product.likes"></app-like>
+
+
+    <a href="{{product.link}}" >link</a>
+  </div>
+
+</div>
+
