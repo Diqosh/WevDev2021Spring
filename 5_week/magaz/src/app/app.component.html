@@ -1,8 +1,10 @@
 <div class="body__wrapper">
-  <app-product-list>
+  <app-product-list [products]="products | productFilter:needableIDs">
 
   </app-product-list>
-  <app-categories>
+  <app-categories
+    (onFilter)="filter($event)"
+  >
 
   </app-categories>
 

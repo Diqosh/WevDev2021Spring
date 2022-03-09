@@ -1,8 +1,14 @@
 <div class="category">
-  <div class="category__item"
-      (click)="print($event)"
+  <div class="category__item" *ngFor="let category of categories"
+      (click)="activate(category.id)"
+       [ngClass]="{
+       active: activeButtonsId.includes(category.id)
+       }">
 
-      *ngFor="let category of categories">
+<!--      [ngStyle]="{-->
+<!--      background: activeButtonsId.includes(category.id) ? '#d340e3' : '#fff'-->
+<!--      }"-->
+
     <p>{{category.name}}</p>
   </div>
 </div>

@@ -1,4 +1,4 @@
-import {Component, ElementRef, HostListener, OnInit, Renderer2, ViewChild} from '@angular/core';
+import {Component, EventEmitter, Output} from '@angular/core';
 import {CategoryService} from "../services/category.service";
 
 export interface category{
@@ -11,39 +11,31 @@ export interface category{
   templateUrl: './categories.component.html',
   styleUrls: ['./categories.component.css']
 })
-export class CategoriesComponent implements OnInit {
+export class CategoriesComponent  {
+  @Output() onFilter: EventEmitter<number[]> = new EventEmitter<number[]>()
   // @ts-ignore
   categories: category[]
   isActive: boolean
 
+  activeButtonsId: number[]
 
   constructor(
-    private service: CategoryService,
-    private el: ElementRef,
-    ) {
+    private service: CategoryService) {
     this.isActive = false
-    this.categories = service.getServices()
+    this.categories = service.getCategories()
+    this.activeButtonsId = []
   }
 
-  ngOnInit(): void {
 
-  }
-  print(e: any){
-    let elems = this.el.nativeElement.querySelectorAll(".category__item")
-
-    elems.forEach((elem: any) => {
-        elem.style.background = "#fff"
-      }
-    )
-
-
+  activate(id: number){
     this.isActive = !this.isActive
-    if (this.isActive)
-     e.target.style.backgroundColor = "#f86ff6"
+    if( this.activeButtonsId.includes(id))
+      this.activeButtonsId = this.activeButtonsId.filter(item => item != id)
     else
-      e.target.style.backgroundColor = "#ffffff"
-    console.log(e.target)
+      this.activeButtonsId.push(id)
 
+
+    this.onFilter.emit(this.activeButtonsId)
 
   }
 

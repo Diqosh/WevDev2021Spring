@@ -9,9 +9,12 @@ import {ProductService} from "../services/product.service";
 })
 export class ProductListComponent implements OnInit {
   //@ts-ignore
-   products: Product[];
-  constructor(private service: ProductService) {
-    this.products = service.getProducts();
+  @Input() products: Product[]
+
+
+  constructor() {
+
+
   }
 
   ngOnInit(): void {

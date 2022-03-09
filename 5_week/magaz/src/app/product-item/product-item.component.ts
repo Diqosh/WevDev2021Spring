@@ -13,8 +13,11 @@ export class ProductItemComponent  {
 
   }
 
-  //like
+  share(link: any){
+    window.alert(`You will be redirected to Telegram`);
+    window.open(`https://t.me/share/url?url=${link}&text=Hi! Check this on Amazon!`)
 
+  }
 
 
 

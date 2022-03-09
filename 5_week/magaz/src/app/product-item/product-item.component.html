@@ -1,12 +1,16 @@
 <div class="product__wrapper">
-  <p>{{product.name}}</p>
+  <p class="product__name">{{product.name}}</p>
   <div class="product__image"><img [src]="product.image" alt=""></div>
   <div class="product__info">
-    <p>{{product.rating}}</p>
-    <app-like [like]="product.likes"></app-like>
+    <app-rating [rating]="product.rating"></app-rating>
+
+    <div class="product__row_two">
+      <app-like [like]="product.likes"></app-like>
 
 
-    <a href="{{product.link}}" >link</a>
+      <button class="product__button_share" (click)="share(product.link)">Share</button>
+    </div>
+
   </div>
 
 </div>
