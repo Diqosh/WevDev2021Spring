@@ -1,4 +1,4 @@
-import {Component, Input} from '@angular/core';
+import {Component, EventEmitter, Input, Output} from '@angular/core';
 import {Product} from "../app.component";
 
 @Component({
@@ -9,6 +9,8 @@ import {Product} from "../app.component";
 export class ProductItemComponent  {
   //@ts-ignore
   @Input() product : Product
+  //@ts-ignore
+  @Output() onDeleteProduct : EventEmitter<number> = new EventEmitter<number>();
   constructor() {
 
   }
@@ -17,6 +19,11 @@ export class ProductItemComponent  {
     window.alert(`You will be redirected to Telegram`);
     window.open(`https://t.me/share/url?url=${link}&text=Hi! Check this on Amazon!`)
 
+  }
+
+
+  delete(deleteProductID: number){
+    this.onDeleteProduct.emit(deleteProductID);
   }
 
 

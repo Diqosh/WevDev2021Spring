@@ -1,5 +1,6 @@
 <div class="body__wrapper">
-  <app-product-list [products]="products | productFilter:needableIDs">
+  <app-product-list [products]="products | productFilter:needableIDs"
+  (onDelete)="deleteProduct($event)">
 
   </app-product-list>
   <app-categories

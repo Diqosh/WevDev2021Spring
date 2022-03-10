@@ -1,5 +1,6 @@
 .body__wrapper{
   display: flex;
+  justify-content: space-between;
 }
 app-product-list{
   display: flex;

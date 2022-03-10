@@ -1,15 +1,13 @@
 import {Injectable} from '@angular/core';
+import {Product} from "../app.component";
 
 @Injectable({
   providedIn: 'root'
 })
 export class ProductService {
-
+  products: Product[];
   constructor() {
-  }
-
-  getProducts() {
-    return [
+    this.products = [
       {
         id: 1,
         name: "Fiodio Mechanical Gaming Keyboard",
@@ -191,6 +189,17 @@ export class ProductService {
         link: "https://www.amazon.com/dp/B08T22CR4W/ref=sspa_dk_detail_6?psc=1&pd_rd_i=B08T22CR4W&pd_rd_w=yfTln&pf_rd_p=b9951ce4-3bd8-4b04-9123-0fda35d6155e&pd_rd_wg=lWP6O&pf_rd_r=BVPFARC6KTXWWC9SZABD&pd_rd_r=0a607b85-8fd6-4453-b94e-23312e0618e4&s=toys-and-games&smid=A1B7M9EQGNCLQA&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzUFI0M0pLMlI4MlJSJmVuY3J5cHRlZElkPUEwNDI1NjgxWVIzUkU3QTEzRk42JmVuY3J5cHRlZEFkSWQ9QTAzNDI4NzkxRFpZVkpVVlhBQktSJndpZGdldE5hbWU9c3BfZGV0YWlsJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ=="
       }
     ]
+  }
+
+  getProducts() {
+    return this.products
 
   }
+
+  // deleteProduct(id: number){
+  //   this.products = this.products.filter(
+  //     product => product.id != id
+  //   )
+  // }
+
 }
