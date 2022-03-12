@@ -6,9 +6,10 @@
 
     <div class="product__row_two">
       <app-like [like]="product.likes"></app-like>
-      <img src="assets/img/trash-solid.svg" alt="" class="product__delete" (click)="delete(product.id)">
 
       <button class="product__button_share" (click)="share(product.link)">Share</button>
+
+      <img src="assets/img/trash-solid.svg" alt="" class="product__delete" (click)="delete(product.id)">
     </div>
 
   </div>

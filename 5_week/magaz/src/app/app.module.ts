@@ -12,6 +12,7 @@ import { RatingComponent } from './rating/rating.component';
 import { ProductFilterPipe } from './pipes/product-filter.pipe';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,7 +22,6 @@ import { ProductFilterPipe } from './pipes/product-filter.pipe';
     CategoriesComponent,
     RatingComponent,
     ProductFilterPipe,
-
   ],
   imports: [
     BrowserModule

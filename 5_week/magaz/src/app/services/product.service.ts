@@ -22,7 +22,7 @@ export class ProductService {
         name: "Mechanical Gaming Keyboard and Mouse Set with Aluminium Alloy Panel USB",
         category: 1,
         likes: 6,
-        rating: 4.5,
+        rating: 1.5,
         image: "assets/img/2.png",
         link: "https://www.amazon.com/Mechanical-Gaming-Keyboard-Mouse-Aluminium/dp/B09NVLSFNJ/ref=sr_1_2_sspa?keywords=gaming+keyboard&pd_rd_r=cad06b87-d87d-45f9-ba3c-63d8c3f46eaa&pd_rd_w=TOhCK&pd_rd_wg=WfE5o&pf_rd_p=12129333-2117-4490-9c17-6d31baf0582a&pf_rd_r=DAM9E9HGCCM0GH5ZS436&qid=1646641291&sr=8-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFaNVRNTlZNMEs1NDgmZW5jcnlwdGVkSWQ9QTA1MDA2OTBSMUZZSjNXVVo3NlQmZW5jcnlwdGVkQWRJZD1BMDA4MTU1MENYQlJLWFhNTFJHUyZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU="
       },
@@ -31,7 +31,7 @@ export class ProductService {
         name: "havit Wired Gaming Keyboard Mouse Combo LED Rainbow Backlit Gaming Keyboard",
         category: 1,
         likes: 5,
-        rating: 5,
+        rating: 3.9,
         image: "assets/img/3.png",
         link: "https://www.amazon.com/dp/B016Y2BVKA/ref=sspa_dk_detail_3?psc=1&pd_rd_i=B016Y2BVKA&pd_rd_w=p0PbE&pf_rd_p=57cbdc41-b731-4e3d-aca7-49078b13a07b&pd_rd_wg=gbher&pf_rd_r=1MSHBKSDZE8YNCRNJMYB&pd_rd_r=5624bd8e-ae41-4761-960b-95e3760346e1&s=pc&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyRVhJSDFSM1BSNlM2JmVuY3J5cHRlZElkPUEwNjI4OTE5UDcxUEFPRlJXMlQ3JmVuY3J5cHRlZEFkSWQ9QTA1MzgyMTgyTTk5QlNKQkNIT1FPJndpZGdldE5hbWU9c3BfZGV0YWlsX3RoZW1hdGljJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ=="
       },
@@ -40,7 +40,7 @@ export class ProductService {
         name: "MIHIYIRY K400 Mechanical Gaming Keyboard",
         category: 1,
         likes: 3,
-        rating: 5,
+        rating: 2.5,
         image: "assets/img/4.png",
         link: "https://www.amazon.com/dp/B09GFSRXJ3/ref=sspa_dk_detail_7?psc=1&pd_rd_i=B09GFSRXJ3&pd_rd_w=LVcDp&pf_rd_p=b9951ce4-3bd8-4b04-9123-0fda35d6155e&pd_rd_wg=gbher&pf_rd_r=1MSHBKSDZE8YNCRNJMYB&pd_rd_r=5624bd8e-ae41-4761-960b-95e3760346e1&s=pc&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyRVhJSDFSM1BSNlM2JmVuY3J5cHRlZElkPUEwMjM1MTgxUEFBNU1HQzdRNkI1JmVuY3J5cHRlZEFkSWQ9QTA3MzU0MTYyVVZUUFA2TUpIVFgwJndpZGdldE5hbWU9c3BfZGV0YWlsJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ=="
       },
@@ -49,7 +49,7 @@ export class ProductService {
         name: "Ficihp USB Mechanical Keyboard, Built-in 12.6 inches Touchscreen",
         category: 1,
         likes: 7,
-        rating: 4,
+        rating: 0,
         image: "assets/img/5.png",
         link: "https://www.amazon.com/dp/B09MJ4PSFP/ref=sspa_dk_detail_1?psc=1&pd_rd_i=B09MJ4PSFP&pd_rd_w=nRk6E&pf_rd_p=b9951ce4-3bd8-4b04-9123-0fda35d6155e&pd_rd_wg=aXLTg&pf_rd_r=GY8CNP1CWYQBYDFF41WD&pd_rd_r=4f3a41c2-73a0-469f-a436-bd2b59710ba6&s=pc&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExOEE5NzA1S0xYSU4xJmVuY3J5cHRlZElkPUEwODA3NjU4MTMyNE5aV0lVMjJCMiZlbmNyeXB0ZWRBZElkPUEwMzgwNzk3Slc2U1pSSlVHTUpXJndpZGdldE5hbWU9c3BfZGV0YWlsJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ=="
       },
@@ -58,7 +58,7 @@ export class ProductService {
         name: "Colgate Cavity Protection Toothpaste with Fluoride",
         category: 2,
         likes: 3,
-        rating: 4.5,
+        rating: 1.5,
         image: "assets/img/6.png",
         link: "https://www.amazon.com/Colgate-Cavity-Protection-Toothpaste-Fluoride/dp/B01BNEWDFQ/ref=lp_16225006011_1_9"
       },
@@ -67,7 +67,7 @@ export class ProductService {
         name: "Gillette Sensor3 Comfort Disposable Razors for Men",
         category: 2,
         likes: 3,
-        rating: 4.5,
+        rating: 2.5,
         image: "assets/img/7.png",
         link: "https://www.amazon.com/dp/B07PX77GGS/ref=sspa_dk_detail_4?psc=1&pd_rd_i=B07PX77GGS&pd_rd_w=pBigg&pf_rd_p=b9951ce4-3bd8-4b04-9123-0fda35d6155e&pd_rd_wg=91OUF&pf_rd_r=C8ZJDYPS2SFEG9CABV5G&pd_rd_r=11adb8da-c073-45a5-8498-b2e7aae3269b&s=beauty&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyOUJQWjBFRUxUS1c3JmVuY3J5cHRlZElkPUEwNTQyNjkyMjFMVldRMUVQQVJYSiZlbmNyeXB0ZWRBZElkPUEwODUxODg1MVdWQTBLTjRTQjEwSyZ3aWRnZXROYW1lPXNwX2RldGFpbCZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU="
       },
@@ -85,7 +85,7 @@ export class ProductService {
         name: "MANSCAPED™ Electric Groin Hair Trimmer",
         category: 2,
         likes: 3,
-        rating: 4.5,
+        rating: 1.7,
         image: "assets/img/9.png",
         link: "https://www.amazon.com/dp/B08ZYYQ8S9/ref=sspa_dk_detail_4?psc=1&pd_rd_i=B08ZYYQ8S9&pd_rd_w=mClDJ&pf_rd_p=b9951ce4-3bd8-4b04-9123-0fda35d6155e&pd_rd_wg=1bB1h&pf_rd_r=NE8VREQ5TMNWZ34A99SX&pd_rd_r=bc62367d-4270-4a75-ba07-bc4f082131dd&s=beauty&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyMlBIVzVYRTFXSU05JmVuY3J5cHRlZElkPUEwOTY3NDA5M1RMUzg0WDRBOEZQUiZlbmNyeXB0ZWRBZElkPUEwMjA4MDQ0MllLSEYzU01JQkhZQSZ3aWRnZXROYW1lPXNwX2RldGFpbCZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU="
       },
@@ -94,7 +94,7 @@ export class ProductService {
         name: "MANSCAPED™ The Weed Whacker™",
         category: 2,
         likes: 3,
-        rating: 4.5,
+        rating: 3.9,
         image: "assets/img/10.png",
         link: "https://www.amazon.com/dp/B087GYN931/ref=sspa_dk_detail_0?psc=1&pd_rd_i=B087GYN931&pd_rd_w=7a2Fm&pf_rd_p=57cbdc41-b731-4e3d-aca7-49078b13a07b&pd_rd_wg=uWM3B&pf_rd_r=YE20GGGX8P934JXD7V09&pd_rd_r=d2260038-1b58-4c54-a70e-70dc39e072c4&s=beauty&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyTExMVDI0TTRKMTJEJmVuY3J5cHRlZElkPUEwNDgwNTUzMUZFUFhTU1hGWjBaNiZlbmNyeXB0ZWRBZElkPUExMDA5OTc0M1ZJRktYTlA2UFpWOSZ3aWRnZXROYW1lPXNwX2RldGFpbF90aGVtYXRpYyZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU="
       },
@@ -103,7 +103,7 @@ export class ProductService {
         name: "Ripple Junction Playstation Vintage Icons Adult T-Shirt\n",
         category: 3,
         likes: 3,
-        rating: 4.5,
+        rating: 3.8,
         image: "assets/img/11.png",
         link: "https://www.amazon.com/Ripple-Junction-Playstation-Vintage-T-Shirt/dp/B00OWA823Q/ref=sr_1_1?keywords=gaming+apparel&pd_rd_r=abeaa8fb-33c6-4ff3-a8a8-9c4f9004e89d&pd_rd_w=uSBRw&pd_rd_wg=xHT6U&pf_rd_p=09483392-9ac6-434a-a3d7-39d83662f54a&pf_rd_r=DAM9E9HGCCM0GH5ZS436&qid=1646641676&sr=8-1"
       },
@@ -112,7 +112,7 @@ export class ProductService {
         name: "Ripple Junction Naruto Shippuden Ichiraku Ramen Shop Light Weight Crew T-Shirt\n",
         category: 3,
         likes: 3,
-        rating: 4.5,
+        rating: 1.5,
         image: "assets/img/12.png",
         link: "https://www.amazon.com/dp/B00U0HLK5C/ref=sspa_dk_detail_3?psc=1p13NParams&smid=A3L3S0S1T65QYZ&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyVUgzVVdLVTlSSlRWJmVuY3J5cHRlZElkPUEwODg3NjIzM1NaNVFINVEzREVWNCZlbmNyeXB0ZWRBZElkPUExMDA2NDY0TTI3T0VSOU9NSkdXJndpZGdldE5hbWU9c3BfZGV0YWlsMiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU="
       },

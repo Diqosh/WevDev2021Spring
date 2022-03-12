@@ -1,4 +1,4 @@
-import {Component, Input, OnInit} from '@angular/core';
+import {Component, Input, OnInit, ViewChild} from '@angular/core';
 
 @Component({
   selector: 'app-rating',
@@ -8,9 +8,27 @@ import {Component, Input, OnInit} from '@angular/core';
 export class RatingComponent implements OnInit {
   //@ts-ignore
   @Input() rating: number
+  @ViewChild('star') star: any
+
+
+
+
   constructor() { }
 
   ngOnInit(): void {
+
   }
+  ngAfterViewChecked(){
+    let width = 80 * this.rating /5;
+
+    this.star.nativeElement.style.width = width.toString() + 'px'
+  }
+  onclick(){
+
+  }
+
+
+
+
 
 }

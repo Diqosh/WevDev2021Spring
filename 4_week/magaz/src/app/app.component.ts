@@ -1,3 +1,4 @@
+// @ts-ignore
 import {Component} from '@angular/core';
 
 export interface Product {
@@ -8,6 +9,7 @@ export interface Product {
   link?: string
 }
 
+// @ts-ignore
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',

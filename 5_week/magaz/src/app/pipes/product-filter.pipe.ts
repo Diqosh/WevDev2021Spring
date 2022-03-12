@@ -8,7 +8,7 @@ import {Product} from "../app.component";
 export class ProductFilterPipe implements PipeTransform {
 
   transform(products: Product[], needCATId: number[]): Product[] {
-    console.log("needCATId: " + needCATId)
+
     if(needCATId.length == 0){
       return products;
     }
