@@ -1,0 +1,8 @@
+.photo__wrapper{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.photo{
+  width: 350px;
+}

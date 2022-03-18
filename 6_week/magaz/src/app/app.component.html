@@ -1,0 +1,20 @@
+<nav class="navbar">
+  <h1>
+    <a href="#">Angular Album</a>
+  </h1>
+  <ul>
+    <li routerLinkActive="active">
+      <a routerLink="/home">Home</a>
+    </li>
+    <li routerLinkActive="active"><a [routerLink]="['/albums']">Albums</a></li>
+    <li routerLinkActive="active"><a routerLink="/about">About</a></li>
+  </ul>
+</nav>
+
+<div class="container">
+  <div class="card">
+    <router-outlet></router-outlet>
+  </div>
+</div>
+
+

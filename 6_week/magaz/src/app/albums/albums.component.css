@@ -1,0 +1,25 @@
+.albums, .loading{
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.album{
+  display: flex;
+}
+.album p:hover{
+  cursor: pointer;
+}
+
+button {
+  background-color: #d63031;
+  color: #fff;
+  border: 1px solid black;
+  width: 50px;
+  margin-left: 30px;
+
+}
+input{
+   border: 1px solid black;
+}
+
