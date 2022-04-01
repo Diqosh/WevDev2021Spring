@@ -1,0 +1,25 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    this is home <br>
+    <img src="{% static 'portfolio/t.png' %}" alt="">
+{% for project in projects %}
+
+    {{ project.title }}
+    {{ project.description }} <br>
+    <img src="{{ project.image.url }}" alt="">
+    {% if project.url %}
+        <a href="{{ project.url }}">Link</a>
+    {% endif %}
+
+
+
+{% endfor %}
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>password set</h1>
+
+<form action="{% url 'password' %}">
+
+    <select name="length" id="">
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8" selected="selected">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+    </select>
+    Length
+    <br>
+    <input type="checkbox" name="uppercase" value="True"> Uppercase
+    <input type="checkbox" name="number" value="True"> Number
+    <input type="checkbox" name="special" value="True"> Special
+    <br>
+    <button type="submit">Generate</button>
+</form>
+<a href="{% url 'about' %}">about</a>
+
+</body>
+</html>
