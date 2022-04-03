@@ -1,0 +1,23 @@
+
+{% extends 'todo/base.html' %}
+{% block content %}
+    {% if user.is_authenticated %}
+            logged in as {{ user.username }}
+
+        <form action="{% url 'logoutuser' %}" method="post">
+        {% csrf_token %}
+        <button type="submit">logout</button>
+        </form>
+
+        {% else %}
+            <a href="{% url 'signupuser' %}">Sign up</a>
+            <a href="{% url 'loginuser' %}">Login</a>
+        {% endif %}
+
+
+    <ul>
+    {% for todo in todos %}
+        <li>{{ todo.title }}</li>
+    {% endfor %}
+    </ul>
+{% endblock content %}
