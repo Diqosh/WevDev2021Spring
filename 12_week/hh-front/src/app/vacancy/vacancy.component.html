@@ -1,1 +1,9 @@
-<p>vacancy works!</p>
+<div>
+  Category List
+  <ul>
+    <li *ngFor="let c of vacancies">
+      {{c.id}}
+      <a href="vacancies/{{c.id}}">{{c.name}}</a>
+    </li>
+  </ul>
+</div>

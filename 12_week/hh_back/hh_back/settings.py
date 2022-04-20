@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     "corsheaders",
     'api',
+    'posting'
 ]
 CORS_ORIGIN_ALLOW_ALL = True
 MIDDLEWARE = [

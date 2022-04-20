@@ -28,8 +28,9 @@ export class AppComponent implements OnInit {
 
   login() {
     this.categoryService.login(this.username, this.password).subscribe((data) => {
-
-      localStorage.setItem('token', data.token);
+    console.log(data)
+      // @ts-ignore
+      localStorage.setItem('token', data.access);
 
       this.logged = true;
       this.username = '';

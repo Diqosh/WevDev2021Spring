@@ -3,4 +3,8 @@ from .models import Company
 from .models import Vacancy
 
 admin.site.register(Company)
-admin.site.register(Vacancy)
+
+
+@admin.register(Vacancy)
+class VacAdmin(admin.ModelAdmin):
+    list_display = ('id', 'name')

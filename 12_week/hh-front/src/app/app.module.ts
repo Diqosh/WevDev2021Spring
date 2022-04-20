@@ -9,13 +9,15 @@ import {HTTP_INTERCEPTORS, HttpClientModule} from "@angular/common/http";
 import {FormsModule} from "@angular/forms";
 import {AuthInterceptor} from "./AuthInterceptor";
 import { CompanyDetailComponent } from './company-detail/company-detail.component';
+import { VacancyDetailComponent } from './vacancy-detail/vacancy-detail.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     VacancyComponent,
     CompanyComponent,
-    CompanyDetailComponent
+    CompanyDetailComponent,
+    VacancyDetailComponent
   ],
   imports: [
     BrowserModule,

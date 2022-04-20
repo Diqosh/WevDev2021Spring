@@ -12,7 +12,7 @@ urlpatterns = [
 
     path('',  views.hello),
 
-        path('companies', views.companyList),
+    path('companies', views.companyList),
     path('companies/<int:id>', views.companyDetail),
     path('companies/<int:id>/vacancies', CompanyVacListAPIView.as_view()),
     path('vacancies', views.vacancyList),

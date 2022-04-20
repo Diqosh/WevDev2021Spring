@@ -3,7 +3,7 @@ from django.views.decorators.csrf import csrf_exempt
 from django.shortcuts import render
 from django.http.response import JsonResponse, Http404
 from rest_framework import mixins, generics
-from rest_framework.decorators import api_view
+from rest_framework.decorators import api_view, permission_classes
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
 from rest_framework.views import APIView
@@ -33,6 +33,7 @@ def companyList(request):
 
 
 @csrf_exempt
+@permission_classes((IsAuthenticated, ))
 def companyDetail(request, id):
     try:
         category = Company.objects.get(id=id)
